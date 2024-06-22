@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+background-color: rgba(119, 136, 119, 0.258) !important;
+}
+.container {
+    max-width: 1240px !important;
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card {
+    box-shadow: 1px 1px 30px 2px;
+    width: 400px !important;
+}
+
+.verify-modal{
+    width:300px !important;
+}
